@@ -1,0 +1,21 @@
+:host { display: grid; place-items: center; min-height: 100vh; padding: 24px;
+  background: radial-gradient(60% 50% at 20% 10%, rgba(139,92,246,.35), transparent),
+              radial-gradient(50% 50% at 90% 90%, rgba(34,211,238,.18), transparent), var(--sn-bg); }
+.card { position: relative; z-index: 10; width: 100%; max-width: 420px; padding: 32px; border-radius: var(--sn-radius);
+  background: var(--sn-glass); border: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(18px); box-shadow: 0 20px 50px rgba(0,0,0,0.6); }
+h1 { margin: 0 0 4px; letter-spacing: .12em; font-size: 28px;
+  background: linear-gradient(90deg, var(--sn-violet), var(--sn-cyan)); -webkit-background-clip: text; color: transparent; }
+p.sub { margin: 0 0 24px; color: var(--sn-muted); }
+label { display: block; font-size: 13px; color: var(--sn-muted); margin: 14px 0 6px; }
+input[type=text], input[type=email], input[type=password] { width: 100%; padding: 12px 14px; border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.14); background: rgba(0,0,0,.35); color: var(--sn-text); font-size: 15px; }
+input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--sn-cyan); outline-offset: 2px; }
+.row { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; font-size: 13px; }
+.err { color: var(--sn-danger); font-size: 12px; margin-top: 4px; }
+.banner { margin-top: 14px; padding: 10px 12px; border-radius: 10px; background: rgba(248,113,113,.12); color: var(--sn-danger); font-size: 13px; }
+button.primary { width: 100%; margin-top: 22px; padding: 13px; border: 0; border-radius: 10px; font-weight: 600; font-size: 15px; cursor: pointer;
+  color: #fff; background: linear-gradient(90deg, var(--sn-violet), var(--sn-blue)); }
+button.primary[disabled] { opacity: .55; cursor: not-allowed; }
+.link { color: var(--sn-cyan); text-decoration: none; background: none; border: 0; cursor: pointer; font-size: 13px; }
+.foot { margin-top: 18px; text-align: center; font-size: 13px; color: var(--sn-muted); }
+.pw { position: relative; } .pw .link { position: absolute; right: 10px; top: 10px; }

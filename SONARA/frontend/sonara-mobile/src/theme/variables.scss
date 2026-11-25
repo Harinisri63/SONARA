@@ -1,0 +1,15 @@
+// SONARA Mobile Design System Variables
+:root {
+  --ion-background-color: #07060d;
+  --ion-text-color: #f1f5f9;
+
+  --sn-violet: #8b5cf6;
+  --sn-blue: #3b82f6;
+  --sn-cyan: #06b6d4;
+  --sn-glass: rgba(255, 255, 255, 0.04);
+  --sn-border: rgba(255, 255, 255, 0.08);
+
+  --ion-tab-bar-background: rgba(10, 10, 18, 0.95);
+  --ion-tab-bar-color: rgba(255, 255, 255, 0.5);
+  --ion-tab-bar-color-selected: var(--sn-cyan);
+}
